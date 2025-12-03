@@ -45,6 +45,13 @@
 *   **Do**: Revisit the initial design. If the foundation is strong, it outperforms complex add-ons.
 *   **Lesson**: "Most of our improvements were back at the very beginning."
 
+## 7. The "Data-Driven Loop" (Validation)
+**The Insight**: Development speed is maximized when you have constant, accurate data to test against.
+**The Key**: **Shorten the Feedback Loop.**
+*   **Don't**: Build in a vacuum.
+*   **Do**: Ensure every feature has a corresponding "Data Signal" (e.g., we added `growth_history` API *before* building the visualization).
+*   **Result**: We could "test and apply" instantly because the data was always there.
+
 ## Summary Checklist for New Projects
 - [ ] **Constraint Check**: Are UI elements bounded?
 - [ ] **State Check**: Are "Offline" vs "Idle" distinct?
