@@ -1,4 +1,4 @@
-# 🔑 Growth Keys: The Efficiency Playbook
+# Growth Keys: The Efficiency Playbook
 
 **Origin**: Derived from the *Avalon Smart Controller* project (1.1B Shares, 1.64G Best).
 **Goal**: To minimize the "rejection rate" (error loops) and maximize development velocity in future cycles.
@@ -52,8 +52,16 @@
 *   **Do**: Ensure every feature has a corresponding "Data Signal" (e.g., we added `growth_history` API *before* building the visualization).
 *   **Result**: We could "test and apply" instantly because the data was always there.
 
+## 8. The "Momentum Shift" (Flow over Memory)
+**The Insight**: In volatile environments, rigid memory (history) becomes a liability.
+**The Key**: **Chase the Flow.**
+*   **Don't**: Rely on data > 10 minutes old.
+*   **Do**: Act on immediate feedback (Momentum). If it's hot, stay. If it's cold, move.
+*   **Lesson**: "Memory is baggage. Flow is everything."
+
 ## Summary Checklist for New Projects
 - [ ] **Constraint Check**: Are UI elements bounded?
 - [ ] **State Check**: Are "Offline" vs "Idle" distinct?
 - [ ] **Data Check**: Are we handling `None` returns from APIs?
 - [ ] **Context Check**: Is the AI looking at the right file?
+- [ ] **Flow Check**: Is the system reacting to *now* or *yesterday*?
